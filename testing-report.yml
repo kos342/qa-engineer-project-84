@@ -14,3 +14,11 @@ status: pass
 - summary: |
     Проверка функционала работы корзины.
 status: pass
+
+- summary: |
+    Проверка кросс-браузерности сайта.
+status: pass
+
+- summary: |
+    Открытие сайта на мобильном устройстве.
+status: fail
