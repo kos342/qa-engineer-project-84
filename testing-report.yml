@@ -1,24 +1,24 @@
 ---
 - summary: |
     Проверка работы функции поиска по каталогу.
-status: pass
+  status: pass
 
 - summary: |
     Проверка фильтрации товаров по цене.
-status: fail
+  status: fail
 
 - summary: |
     Просмотр информации о товаре.
-status: pass
+  status: pass
 
 - summary: |
     Проверка функционала работы корзины.
-status: pass
+  status: pass
 
 - summary: |
     Проверка кросс-браузерности сайта.
-status: pass
+  status: pass
 
 - summary: |
     Открытие сайта на мобильном устройстве.
-status: fail
+  status: fail
