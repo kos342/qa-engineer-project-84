@@ -8,7 +8,7 @@
   test-data: |
     Поиск = macbook
   steps:
-    1. Ввести поисковый запрос.
+    - Ввести поисковый запрос.
   expected-result: |
     Выводится перечень всех товаров, соответствующих условиям поиска.
 - summary: |
@@ -20,7 +20,7 @@
   test-data: |
     Цена От-До = 730
   steps:
-    1. Ввести значение фильтра в строку.
+    - Ввести значение фильтра в строку.
   expected-result: |
     Выводится список товаров с ценой >= 730.
 - summary: |
@@ -32,7 +32,7 @@
   test-data: |
     Поиск = "iPhone 9".
   steps: |
-    1. Открыть страницу товара "iPhone 9".
+    - Открыть страницу товара "iPhone 9".
   expected-result: |
     Открывается страница товара с подробной информацией о товаре.
 - summary: |
@@ -44,8 +44,8 @@
   test-data: |
     Товар = "iPhone 9".
   steps: |
-    1. Выбрать любой товар и нажать кнопку "В корзину".
-    2. Нажать кнопку "Корзина" вверху страницы.
+    - Выбрать любой товар и нажать кнопку "В корзину".
+    - Нажать кнопку "Корзина" вверху страницы.
   expected-result: |
     В корзине находится товар, добавленный в корзину.
 - summary: |
@@ -57,9 +57,9 @@
   test-data: |
     site-adress = "https://products-store-git-v2bugfixes-hexlet-components.vercel.app/".
   steps: |
-    1. Открыть сайт Browserstack (https://browserstack.com).
-    2. Нажать на кнопку "GO TO DASHBOARD".
-    3. Открыть сайт магазина (https://hexlet-products-store.vercel.app/) в браузере Mozilla Firefox.
+    - Открыть сайт Browserstack (https://browserstack.com).
+    - Нажать на кнопку "GO TO DASHBOARD".
+    - Открыть сайт магазина (https://hexlet-products-store.vercel.app/) в браузере Mozilla Firefox.
   expected-result: |
     Сайт соответствует макету, все элементы расположены согласно макету.
 - summary: |
@@ -69,8 +69,8 @@
   prerequisites: |
     На ПК имеется активное интернет-соединение.
   steps: |
-    1. Открыть сайт магазина (https://hexlet-products-store.vercel.app/).
-    2. Открыть консоль разработчика DevTools.
-    3. Нажать кнопку "Toggle device toolbar".
+    - Открыть сайт магазина (https://hexlet-products-store.vercel.app/).
+    - Открыть консоль разработчика DevTools.
+    - Нажать кнопку "Toggle device toolbar".
   result: |
     Внешний вид сайта соответствует desktop-версии.
