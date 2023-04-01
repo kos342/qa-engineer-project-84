@@ -79,5 +79,5 @@
     - Открыть сайт магазина (https://hexlet-products-store.vercel.app/)
     - Открыть консоль разработчика DevTools
     - Нажать кнопку "Toggle device toolbar"
-  result: |
+  expected-result: |
     Внешний вид сайта соответствует desktop-версии
