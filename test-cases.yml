@@ -30,6 +30,7 @@
   prerequisites: |
     Открыта стартовая страница магазина.
   test-data: |
+    Поиск = "iPhone 9".
   steps: |
     Открыть страницу товара "iPhone 9".
   expected-result: |
