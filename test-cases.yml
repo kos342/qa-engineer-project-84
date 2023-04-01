@@ -73,6 +73,8 @@
     Сайт должен быть доступен на различных устройствах
   prerequisites: |
     На ПК имеется активное интернет-соединение
+  test-data: |
+    Site = "https://hexlet-products-store.vercel.app/"
   steps: |
     - Открыть сайт магазина (https://hexlet-products-store.vercel.app/)
     - Открыть консоль разработчика DevTools
