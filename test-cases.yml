@@ -33,7 +33,7 @@
     Открыта стартовая страница магазина
   test-data: |
     Поиск = "iPhone 9"
-  steps: |
+  steps:
     - Открыть страницу товара "iPhone 9"
   expected-result: |
     Открывается страница товара с подробной информацией о товаре
@@ -46,9 +46,10 @@
     Открыта стартовая страница магазина
   test-data: |
     Товар = "iPhone 9"
-  steps: |
-    - Выбрать любой товар "iPhone 9"и нажать кнопку "В корзину"
-    - Нажать кнопку "Корзина" вверху страницы
+  steps:
+    - Выбрать товар "iPhone 9"
+    - Нажать кнопку "В корзину"
+    - Перейти в корзину
   expected-result: |
     В корзине находится товар, добавленный в корзину
 
@@ -60,9 +61,9 @@
     На ПК имеется активное интернет-соединение
   test-data: |
     site-adress = "https://products-store-git-v2bugfixes-hexlet-components.vercel.app/"
-  steps: |
+  steps:
     - Открыть сайт Browserstack (https://browserstack.com)
-    - Нажать на кнопку "GO TO DASHBOARD"
+    - Нажать кнопку "GO TO DASHBOARD"
     - Открыть сайт магазина (https://hexlet-products-store.vercel.app/) в браузере Mozilla Firefox
   expected-result: |
     Сайт соответствует макету, все элементы расположены согласно макету
@@ -75,7 +76,7 @@
     На ПК имеется активное интернет-соединение
   test-data: |
     Site = "https://hexlet-products-store.vercel.app/"
-  steps: |
+  steps:
     - Открыть сайт магазина (https://hexlet-products-store.vercel.app/)
     - Открыть консоль разработчика DevTools
     - Нажать кнопку "Toggle device toolbar"
